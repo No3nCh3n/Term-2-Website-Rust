@@ -1,0 +1,163 @@
+img.Fade {
+	animation: disappear 7s;
+	position: fixed;
+	width:1440px;
+	height: 900px;
+	margin-top: -55px;
+	margin-left: -8px;
+	z-index: -42883;
+	opacity:0;
+}
+
+@keyframes disappear{
+
+	from {
+		opacity: 1;
+    z-index: 23213;
+	 }
+    to {
+		opacity:0;
+    z-index: -5;
+
+	}
+}
+
+
+body {
+  background-image: url('backgroundPERCONNECTION.jpg');
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ 	z-index: 1;
+}
+
+
+div.Top {
+  width: 930px;
+  height: 100px;
+  border: 15px;
+  border-width: 2px;
+  background-color: green;
+  margin-right:20px;
+	margin-top: 50px;
+	border-left: 8px solid rgba(33, 9, 0, 0.9);
+	border-bottom: 8px solid rgba(33, 9, 0, 0.9);
+	border-top: 2px solid #FF0000;
+	border-right: 1px solid #FF0000;
+	background-color: rgba(129,33,0,0.8);
+  float: right;
+
+}
+
+div.NavMenu {
+  width: 300px;
+  height: 600px;
+  float:left;
+  position: fixed;
+  border: 3px solid rgba(235,66,66,0.5);
+  background-color: rgba(255,45,45,0.5);
+	box-shadow: 5px 5px 20px rgba(235,66,66,0.5);
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+div.content{
+  width: 930px;
+  height: 480px;
+  float: right;
+  background-color: rgba(163,43,0,0.8);
+  margin-right: 20px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  border-left: 8px solid rgba(21,7,0,0.8);
+	border-bottom: 8px solid rgba(33, 9, 0, 0.9);
+	overflow: auto;
+}
+
+h1 {
+  font-size: 38pt;
+  margin-left: 50px;
+	text-decoration: underline;
+	font-family: Rust Regular;
+	text-align: left;
+	margin-top: 24px;
+	text-shadow: 2px 2px #F4463D;
+}
+
+h2.top {
+	font-size: 24pt;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	text-decoration: underline;
+	font-family: Rust Regular;
+	text-shadow: 2px 2px #F4463D;
+}
+
+h2.thesis {
+	font-size: 28pt;
+	margin-left: 50px;
+	margin-bottom: 25px;
+  margin-top: 30px;
+	text-decoration: underline;
+	font-family: Briasco Rustic;
+	text-shadow: 2px 2px #F4463D;
+}
+
+p {
+	float: left;
+	margin-right: 275px;
+	margin-left: 25px;
+	margin-bottom: 5px;
+	font-family: Briasco Rustic;
+	font-size: 18pt;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 50px;
+  width: 200px;
+
+}
+
+li a {
+  display: block;
+  color: #7B7B7B;
+  padding: 10px 16px;
+  text-decoration: none;
+	text-align: center;
+  border: 2px solid black;
+	margin-top: 20px;
+	margin-left: -20px;
+  font-size: 24pt;
+  opacity: 0.7;
+	background-color: #B36060;
+	height: 80px;
+	width: 200px;
+	font-family: Rust Regular;
+
+}
+
+
+li a:hover:not(.current) {
+  transform: scale(1.1,1.1);
+  color: white;
+	background-color: #442525;
+  opacity: 1;
+}
+
+li.current a{
+	background-color: #9D0000;
+	opacity: 1;
+	color: white;
+
+}
+
+li.current a:hover{
+	background-color: #D10000;
+	opacity: 1;
+	color: white;
+
+}

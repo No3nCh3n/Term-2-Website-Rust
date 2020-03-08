@@ -1,0 +1,33 @@
+img.FadeAway {
+  animation: disappear 4s;
+	position: fixed;
+	width:1440px;
+	height: 900px;
+	margin-top: -55px;
+	margin-left: -8px;
+  z-index: -32883;
+}
+
+#Menu {
+	position: fixed;
+	width:1440px;
+	height: 900px;
+	margin-left: -10px;
+	margin-top: -8px;
+	z-index: 0;
+}
+
+
+
+
+@keyframes disappear{
+
+	from {
+		opacity: 1;
+    z-index: 23213;
+	 }
+    to {
+		opacity:0;
+    z-index: -1;
+	}
+}
